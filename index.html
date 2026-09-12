@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A visual guide to modern web design styles with interactive examples." />
+  <title>Web Forms — A Guide to Web Design Styles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">web<span>forms</span></a>
+    <div class="top-events" aria-label="Featured styles">
+      <a href="#minimalism"><strong>Minimalism</strong><span>Quiet / 01</span><em>Study</em></a>
+      <a href="#brutalism"><strong>Brutalism</strong><span>Loud / 02</span><em>Example</em></a>
+      <a href="#glassmorphism"><strong>Glassmorphism</strong><span>Soft / 03</span><em>Example</em></a>
+    </div>
+  </header>
+
+  <aside class="sidebar">
+    <nav>
+      <a href="#styles">Styles</a>
+      <a href="#compare">Compare</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="tickets-btn" id="randomStyle">Surprise me</button>
+  </aside>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-rule"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">A visual field guide</p>
+        <h1>Web design styles,<br><span>explained by example.</span></h1>
+        <p class="hero-lead">Explore the visual languages designers use to shape websites—from restrained minimalism to expressive brutalism, soft glass surfaces, editorial layouts, and beyond.</p>
+      </div>
+      <div class="hero-note">
+        <span>Read</span>
+        <strong>01—10</strong>
+        <small>Design systems<br>you can recognize</small>
+      </div>
+    </section>
+
+    <section class="intro section-wrap" id="styles">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">The collection</p>
+          <h2>Design styles</h2>
+        </div>
+        <button class="link-button" id="allStyles">See all</button>
+      </div>
+      <div class="style-grid" id="styleGrid"></div>
+    </section>
+
+    <section class="compare section-wrap" id="compare">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">At a glance</p>
+          <h2>How the styles differ</h2>
+        </div>
+      </div>
+      <div class="compare-table-wrap">
+        <table>
+          <thead><tr><th>Style</th><th>Visual language</th><th>Best for</th><th>Energy</th></tr></thead>
+          <tbody id="compareBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="essay section-wrap">
+      <div class="essay-mark">“</div>
+      <blockquote>Good web design is not one look. It is choosing a visual language that makes the content feel inevitable.</blockquote>
+      <p>Use the examples as starting points, not strict rules. A strong interface often borrows from several styles at once.</p>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="about-grid">
+        <div>
+          <p class="eyebrow">About the guide</p>
+          <h2>A small archive for better design decisions.</h2>
+        </div>
+        <div class="about-copy">
+          <p>This site breaks down recognizable web design styles into the things you can actually see: spacing, type, color, surfaces, borders, image treatment, and interaction cues.</p>
+          <p>Each example is built with CSS so the page stays fast, readable, and easy to remix into your own projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="section-heading">
+        <div><p class="eyebrow">The maker</p><h2>Contact & details</h2></div>
+      </div>
+      <div class="contact-grid">
+        <div class="maker-card">
+          <div class="avatar">AS</div>
+          <div><h3>Ali Shariaty</h3><p>He / Him</p></div>
+        </div>
+        <div class="contact-list">
+          <a href="mailto:alishariaty2011@gmail.com"><span>E-Mail</span><strong>alishariaty2011@gmail.com</strong></a>
+          <div><span>Country</span><strong>Iran</strong></div>
+          <a href="https://github.com/Kind-Cat" target="_blank" rel="noreferrer"><span>Github</span><strong>Kind-Cat ↗</strong></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <span>webforms / 2026</span>
+    <span>Built as a visual reference.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
